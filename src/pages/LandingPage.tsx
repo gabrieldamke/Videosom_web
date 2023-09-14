@@ -110,7 +110,7 @@ const LandingPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-700 py-16">
+      <section className="bg-blue-800 py-16">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mt-8 md:mt-0 order-2 md:order-1">
             <img

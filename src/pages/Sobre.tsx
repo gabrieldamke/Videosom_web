@@ -72,7 +72,7 @@ const Sobre: React.FC = () => {
 
       <section className="bg-red-600 py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8">Linha do Tempo</h2>
+          <h2 className="text-3xl font-bold text-white text-center mb-8">Linha do Tempo</h2>
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -156,7 +156,7 @@ const Sobre: React.FC = () => {
       </section>
       <section className="bg-white py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-red-600 mb-8">
+          <h2 className="text-3xl text-center font-bold text-red-600 mb-8">
             Faturamento e Funcionários
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -188,9 +188,9 @@ const Sobre: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="bg-blue-700 py-16">
+      <section className="bg-blue-800 py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8">
+          <h2 className="text-3xl text-center font-bold text-white mb-8">
             Depoimentos de Clientes
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -227,7 +227,7 @@ const Sobre: React.FC = () => {
       </section>
       <section className="bg-white py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-red-600 mb-8">
+          <h2 className="text-3xl text-center font-bold text-red-600 mb-8">
             Equipe de Liderança
           </h2>
           <div className="flex flex-wrap justify-center">

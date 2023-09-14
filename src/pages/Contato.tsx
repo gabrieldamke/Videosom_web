@@ -29,7 +29,7 @@ const Contato: React.FC = () => {
 
       <section className="bg-red-600 py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8">
+          <h2 className="text-3xl text-center font-bold text-white mb-8">
             Informações de Contato
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -57,9 +57,9 @@ const Contato: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="bg-blue-700 py-16">
+      <section className="bg-blue-800 py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8">
+          <h2 className="text-3xl text-center font-bold text-white mb-8">
             Formulário de Contato
           </h2>
           <div className="w-full md:w-2/3 mx-auto">

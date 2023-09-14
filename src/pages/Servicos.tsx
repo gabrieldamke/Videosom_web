@@ -43,7 +43,7 @@ const Servicos: React.FC = () => {
 
       <section className="bg-red-600 py-16">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8">
+          <h2 className="text-3xl text-center font-bold text-white mb-8">
             Nossos Serviços Principais
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -140,7 +140,7 @@ const Servicos: React.FC = () => {
                   onClick={togglePrice3}
                   className="text-blue-600 hover:underline"
                 >
-                  {!showPrice2 ? "Ver Preços" : "Fechar Preços"}
+                  {!showPrice3 ? "Ver Preços" : "Fechar Preços"}
                 </button>
                 {showPrice3 && (
                   <div className="mt-4">

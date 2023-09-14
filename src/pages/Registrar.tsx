@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function Registrar() {
   return (
-    <div className="flex flex-col items-center h-screen justify-center bg-white text-white">
+    <div className="flex flex-col items-center h-screen justify-center bg-white ">
       <div className="bg-white p-8 rounded-lg shadow-lg xl:w-120">
         <div className="flex flex-row">
           <div className="flex flex-col">
@@ -19,10 +19,8 @@ export default function Registrar() {
             <div className="flex flex-col">
               <input
                 type="email"
-                name="email"
                 placeholder="Email"
                 className="rounded-lg border-2 border-gray-300 px-4 py-2 mb-3"
-                required
               />
               <input
                 type="text"
