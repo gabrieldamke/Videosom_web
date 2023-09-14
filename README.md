@@ -1,6 +1,6 @@
 # Videosom_web
 
-O Videosom_web é um projeto React para criar uma aplicação web voltada para compartilhamento e visualização de vídeos.
+O Videosom_web é um projeto React para resolver a atividade 4 de IHC
 
 ## Pré-requisitos
 
