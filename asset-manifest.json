@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40184798.css",
+    "main.js": "/static/js/main.55581e56.js",
+    "static/js/787.c6d3d8ce.chunk.js": "/static/js/787.c6d3d8ce.chunk.js",
+    "static/media/telemarketing.jpg": "/static/media/telemarketing.8d13e441d9ff02ed6577.jpg",
+    "static/media/ferrari.png": "/static/media/ferrari.9da1cd52f03ecb33e731.png",
+    "static/media/carretinha.png": "/static/media/carretinha.9d472366c7b7b1138120.png",
+    "static/media/carroSom.png": "/static/media/carroSom.e4ddfe3bf60abcc95a57.png",
+    "static/media/ceo.png": "/static/media/ceo.31c8560757e951128e6b.png",
+    "static/media/mandrake1.png": "/static/media/mandrake1.f88bcef440e295de9e09.png",
+    "static/media/mandrake2.png": "/static/media/mandrake2.fefe04bfcc117ea4bef0.png",
+    "static/media/pioes.png": "/static/media/pioes.cade9ae5d688d1d67fad.png",
+    "static/media/GolDoWilliam.png": "/static/media/GolDoWilliam.cb4e2bfb0809f9e9e4fd.png",
+    "static/media/LogoVS.png": "/static/media/LogoVS.de2a43b959eacb9b7923.png",
+    "static/media/caixaSom.png": "/static/media/caixaSom.df9778b0d5734006f5ff.png",
+    "static/media/portao.png": "/static/media/portao.120a7b604407c723a74e.png",
+    "static/media/LogoVSGrey.png": "/static/media/LogoVSGrey.7f4092fbd541953883ea.png",
+    "index.html": "/index.html",
+    "main.40184798.css.map": "/static/css/main.40184798.css.map",
+    "main.55581e56.js.map": "/static/js/main.55581e56.js.map",
+    "787.c6d3d8ce.chunk.js.map": "/static/js/787.c6d3d8ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40184798.css",
+    "static/js/main.55581e56.js"
+  ]
+}
