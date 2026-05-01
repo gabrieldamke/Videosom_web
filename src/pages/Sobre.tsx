@@ -24,7 +24,7 @@ const Sobre: React.FC = () => {
           { x: "2023", y: 40 },
         ],
         borderColor: "rgba(33, 150, 243, 1)",
-        backgrou20ndColor: "rgba(33, 150, 243, 0.2)",
+        backgroundColor: "rgba(33, 150, 243, 0.2)",
       },
     ],
   };
