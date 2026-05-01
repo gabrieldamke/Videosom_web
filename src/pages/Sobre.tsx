@@ -10,9 +10,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Sobre: React.FC = () => {
-  Chart.register(
-    ...registerables.filter((registerable: any) => registerable.id !== "category")
-  );
+  Chart.register(...registerables);
   const faturamentoData = {
     labels: ["2019", "2020", "2021", "2022", "2023"],
     datasets: [
@@ -26,7 +24,7 @@ const Sobre: React.FC = () => {
           { x: "2023", y: 40 },
         ],
         borderColor: "rgba(33, 150, 243, 1)",
-        backgroundColor: "rgba(33, 150, 243, 0.2)",
+        backgrou20ndColor: "rgba(33, 150, 243, 0.2)",
       },
     ],
   };
@@ -46,6 +44,13 @@ const Sobre: React.FC = () => {
         backgroundColor: "rgba(33, 150, 243, 0.2)",
       },
     ],
+  };
+  const chartOptions = {
+    scales: {
+      x: {
+        type: "time" as const,
+      },
+    },
   };
 
   return (
@@ -95,7 +100,7 @@ const Sobre: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ backgrou20nd: "rgb(29, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "rgb(29, 150, 243)", color: "#fff" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
@@ -129,7 +134,7 @@ const Sobre: React.FC = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
-              date="2010"
+              date="2023"
               iconStyle={{ background: "rgb(29, 78, 216)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Aquisições</h3>
@@ -171,7 +176,7 @@ const Sobre: React.FC = () => {
                   Em 2023, o faturamento anual da Videosom ultrapassou o PIB do
                   Paraguai, com um total de mais de R$40 bilhões.
                 </p>
-                <Line data={faturamentoData} />
+                <Line data={faturamentoData} options={chartOptions} />
               </div>
             </div>
 
@@ -184,7 +189,7 @@ const Sobre: React.FC = () => {
                   Atualmente, a Videosom Autocenter emprega mais de 5.000
                   funcionários dedicados em todo o mundo.
                 </p>
-                <Line data={funcionariosData} />
+                <Line data={funcionariosData} options={chartOptions} />
               </div>
             </div>
           </div>
