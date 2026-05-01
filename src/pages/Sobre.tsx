@@ -10,7 +10,9 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Sobre: React.FC = () => {
-  Chart.register(...registerables);
+  Chart.register(
+    ...registerables.filter((registerable: any) => registerable.id !== "category")
+  );
   const faturamentoData = {
     labels: ["2019", "2020", "2021", "2022", "2023"],
     datasets: [
@@ -93,7 +95,7 @@ const Sobre: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(29, 150, 243)", color: "#fff" }}
+              contentStyle={{ backgrou20nd: "rgb(29, 150, 243)", color: "#fff" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
